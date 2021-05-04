@@ -1,0 +1,266 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+  
+  }
+  body{
+      background-color: #fff;
+  }
+  a{
+      color: inherit;
+      text-decoration: none;
+  }
+  #bg-login {
+      display :flex;
+      height: 100vh;
+      justify-content:center;
+      align-items: center;
+  
+  }
+  .box-login{
+      width: 300px;
+      min-height: 200px;
+      border: 1px solid #ccc;
+      background-color: #501104;
+      padding:15px;
+      box-sizing: border-box;
+  }
+  .box-login h2{
+      text-align: center;
+      margin-bottom: 15px;
+  }
+  .input-control{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      box-sizing: border-box;
+  }
+  #runningtext{
+	width : 100%;
+	height: 25px;
+	padding-top : 7px;
+	margin: 5px 0 5px 0;
+	background-color: black;
+	color: white;
+	position :relative;
+}
+  .button{
+      padding: 8px 15px;
+      background-color:#F63107;
+      color: grey;
+      border:none;
+      cursor: pointer;
+  
+  }
+  header{
+      background-color: #160400;
+      color: #ccc;
+  }
+  header h1 {
+      float: left;
+      padding: 10px 0px;
+  }
+  header ul{
+      float : right;
+  }
+  header ul li{
+      display: inline-block;
+  }
+  header ul li a{
+      padding:20px 0px 20px 15px;
+      display :inline-block;
+      
+  }
+  .container{
+      width: 80%;
+      margin: 0 auto;
+  }
+  .container::after{
+      content: '';
+      display: block;
+      clear: both;
+  }
+  .container a:hover{
+    color 				: white;
+	background 			: #3C4042;
+    padding: 10px;
+}
+  .banner{
+    height: 400px;
+    background-image: url("coverabout.jpg");
+    background-size: cover;
+    background-position: 0-50px;
+  }
+  .section {
+      padding: 25px 0;
+      border: 1px solid;
+
+      background-color: whitesmoke;
+  }
+  .box {
+      background-color: #fff;
+      border: 1px solid #ccc;
+      padding: 15px;
+      box-sizing: border-box;
+      margin: 15px 0;
+  }
+  #sidebar{
+	padding 			: 20px;
+	width				: 25%;
+	background-color	: #371408;
+	position 			: relative;
+	float				: right;
+	/*memberikan garis putus-putus*/
+	border-style		: dotted;
+	border-width		: 1px;
+}
+/*pengaturan widget sidebar*/
+.widged{
+	width				: 99%;
+	background-position	: 10px;
+	background 			: #ffffff;
+	border-top 			: 1px solid #DFDFDF;
+	border-bottom		: 1px solid #DFDFDF;
+	border-right  		: 1px solid #DFDFDF;
+	border-left			: 1px solid #DFDFDF;
+	font-size			: 100%;
+	margin 				: 0px 0px 5px 0px;
+}
+/*pengaturan ukuran iklan dg gambar pada widged*/
+.gambarkopi{
+	width 				: 99%;
+	height				: 200px;
+}
+/*pengaturan huruf judul widged*/
+.judulwidged{
+	background : black;
+	padding : 5px 10px 5px 10px;
+	margin: 0px 0px 0px 0px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.widged ul {
+	margin 				: 0px 0px 0px 0px;
+	padding 			: 0px 0px 0px 0px;
+	list-style-type		: none;
+}
+.widged li {
+	padding 			: 0px 0px 0px 0px;
+	background-position	: left;
+	background-repeat	: no-repeat;
+	color				: #333333;
+}
+.widged li a {
+	color 				: #333333;
+	border-bottom		: 1px dotted #cccccc;
+	text-decoration		: none;
+	display  			: block;
+	margin-bottom		: 5px;
+	padding 			: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+	color 				: blue;
+}
+
+#footer{
+	width 				: 100%;
+	height				: 50px;
+	margin-top			: 5px;
+	padding-top			: 30;
+	background-color	: #212122;
+	color				: white;
+	font-size			: 12pt;
+	text-align			: center;
+	position			: relative;
+	clear				: both;
+}
+
+
+.isipostingall {
+	background-color	: #bc9d64;
+	width				: 99%;
+	height				: auto;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+.gambarposting1 {
+	width				: 500px;
+	height				: 500px;
+	float				:top;
+	margin				: 10px 80px 5px 80px;
+}
+.gambarposting2 {
+	width				: 240px;
+	height				: 260px;
+	float				:left;
+	margin				: 10px 5px 5px 10px;
+}
+.gambarposting3 {
+	width				: 650px;
+	height				: 330px;
+	float				:top;
+	margin				: 10px 10px 5px 12px;
+}
+#layout {
+	background			: #fff;
+	width 				: 980px;
+	margin				: auto;
+	text-align 			: left;
+	padding 			: 2px;
+}
+#isi{
+	padding 			: 5px;
+	width				: 70%;
+	height				: auto;
+	background-color 	: #371408;
+	position 			: relative;
+	margin-top			: 5px;
+}
+/*pengaturan posting*/
+.isiposting{
+	background-color	: #B5A29B;
+	width				: 98%;
+	height				: 300px;
+	margin-bottom		: 5px;
+	padding				: 5px;
+}
+/*pengaturan gambar yang di halaman depan*/
+.gambardepan{
+	float				: left;
+	height				: 270px;
+	width 				: 250px;
+	margin-right		: 5px;
+	margin-top 			: 3px;
+	padding 			: 1px;
+	border 				: 1px solid #dddddd;
+}
+/*pengaturan heading2 "Judul" */
+.isiposting h1 {
+	font-size			: 30px;
+	font-weight 		: bold;
+	color 				: #ffffff;
+	margin-top			: 4px;
+	margin-bottom		: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*pengaturan anchor atau link yang ada di isiposting */
+.isiposting a{
+	text-decoration		: none;
+}
+.isiposting a:hover{
+	color				: yellow;
+}
+.box-alamat{
+        background: #fbfbfb;
+        border-radius: 8px;
+        box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+        height: 410px;
+        margin: 3rem auto 3rem auto;
+        width: 329px;
+}
+
+
